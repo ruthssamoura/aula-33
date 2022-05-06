@@ -1,4 +1,4 @@
-//escopo global
+
 let globalVar = "Oi global"
 
 function global() {
@@ -6,7 +6,7 @@ function global() {
 }
 
 function global2() {
-  //escopo de função
+  
   let functionVar = "Oi função"
   console.log(globalVar);
   console.log(functionVar);
